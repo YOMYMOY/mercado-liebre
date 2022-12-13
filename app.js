@@ -12,4 +12,4 @@ app.get('/',(req,res) => res.sendFile(path.resolve(__dirname,'views','home.html'
 
 
 
-app.listen(port, () => `Servidor corriendo en http://localhost:${port}`);
+app.listen(port, () => console.log(`Servidor corriendo en http://localhost:${port}`));
