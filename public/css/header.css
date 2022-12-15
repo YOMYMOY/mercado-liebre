@@ -1,3 +1,44 @@
 .header {
-    background-color: #EAC926;
+    background-color: var(--colorAmarillo);
+}
+
+.header img {
+    width: 40%;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+
+.header__searchbar--input {
+    margin-left: 15px;
+}
+
+.header__searchbar--button {
+    display: block;
+    margin-left: 15px;
+}
+
+.header p {
+    margin: 10px;
+    text-align: center;
+}
+
+.header__nav--loginbar {
+    margin: 20px 0;
+}
+
+.burger-menu {
+    display: inline-block;
+    background-color: var(--colorCeleste);
+    color: white;
+    padding: 10px;
+    border-radius: 20%;
+    margin: 0 150px 30px;
+}
+
+.burger-menu i {
+    font-size: 150%;
+}
+
+.fa-hand-holding-usd:before {
+    content: "fa-solid fa-hand-holding-dollar";
 }

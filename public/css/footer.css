@@ -1,0 +1,23 @@
+.footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.footer section h4 {
+    color: var(--colorGrisOscuro);
+}
+
+.footer section p {
+    margin-bottom: 40px;
+    color: var(--colorGrisOscuro)
+}
+
+.footer__section--info-copy {
+    text-align: left;
+}
+
+.fa-footer {
+    color: var(--colorCeleste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
