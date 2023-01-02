@@ -14,14 +14,16 @@
 }
 
 .header__searchbar--button {
-    display: block;
-    margin-left: 15px;
     padding: 0;
 }
 
 .header p {
     margin: 10px 0;
     text-align: center;
+}
+
+.header__nav {
+    display: none;
 }
 
 .header__nav--navbar {
@@ -40,4 +42,27 @@
 
 .burger-menu i {
     font-size: 150%;
+}
+
+@media (min-width: 361px) {
+    .header {
+        padding-bottom: 0;
+    }
+
+    .header__nav {
+        display: block;
+        padding: 10px;
+    }
+
+    .header__nav--navbar {
+        margin: 0;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    
 }

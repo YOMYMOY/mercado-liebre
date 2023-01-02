@@ -24,27 +24,66 @@
     padding: 15px;
 }
 
-/* .home__main__section__article--contenido p {
-    color: var(--colorVerde);
-} */
+/* img de producto */
+.home__main__section__article img {
+    width: 100%;
+}
 
-/* .home__main__section__article--contenido i {
+/* logo camión envíos */
+.home__main__section__article--icono_camion i {
     color: var(--colorVerde);
-} */
+    border-radius: 50%;
+    border: 1px solid var(--colorVerde);
+    padding: 5px;
+}
 
-.home__main__section__article h3 {
+/* precio */
+.home__main__section__article--contenido h3 {
     font-size: 18px;
 }
 
-.home__main__section__article p{
+/* oferta */
+.home__main__section__article--contenido p{
     font-size: 16px;
+    color: var(--colorVerde);
 }
 
-.home__main__section__article h4{
+/* nombre del artículo */
+.home__main__section__article--contenido h4{
     font-size: 16px;
-}
-
-/* .home__main__section__article h4 {
-    margin-top: 15px;
     color: var(--colorGrisOscuro);
-} */
+    font-weight: 400;
+    margin-top: 20px;
+    display: none;
+}
+
+@media (min-width: 361px) {
+    .home__main {
+        width: 100%;
+    }
+
+    .home__main__section {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .home__main__section__article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .home__main__section__article--contenido h4{
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .home__main__section__article {
+        display: inline-block;
+        margin: 1%;
+        width: 31%;
+    }
+
+    .home__main__section__article:nth-child(n3) {
+        
+    }
+}
