@@ -1,10 +1,11 @@
-.header {
+ .header {
     background-color: var(--colorAmarillo);
+    padding-bottom: 20px;
 }
 
 .header img {
     width: 40%;
-    margin: 30px;
+    margin: 20px;
     margin-bottom: 10px;
 }
 
@@ -15,30 +16,28 @@
 .header__searchbar--button {
     display: block;
     margin-left: 15px;
+    padding: 0;
 }
 
 .header p {
-    margin: 10px;
+    margin: 10px 0;
     text-align: center;
 }
 
-.header__nav--loginbar {
-    margin: 20px 0;
+.header__nav--navbar {
+    margin: 10px 0;
 }
 
 .burger-menu {
-    display: inline-block;
+    display: block;
     background-color: var(--colorCeleste);
     color: white;
     padding: 10px;
-    border-radius: 20%;
-    margin: 0 150px 30px;
+    border-radius: 5px;
+    margin: 20px auto 0;
+    border: none;
 }
 
 .burger-menu i {
     font-size: 150%;
-}
-
-.fa-hand-holding-usd:before {
-    content: "fa-solid fa-hand-holding-dollar";
 }

@@ -1,19 +1,29 @@
 .footer {
-    text-align: center;
-    padding: 30px;
+    
 }
 
-.footer section h4 {
+.footer__section {
+    padding: 0 35px;
+    text-align: center;
+}
+
+.footer__article {
+    margin: 40px 0 30px;
+}
+
+.footer__article h4 {
+    color: var(--colorGrisOscuro);
+    font-size: 16px;
+}
+
+.footer__article p {
     color: var(--colorGrisOscuro);
 }
 
-.footer section p {
-    margin-bottom: 40px;
-    color: var(--colorGrisOscuro)
-}
-
 .footer__section--info-copy {
-    text-align: left;
+    margin: 20px;
+    margin-left: 15px;
+    color: var(--colorGrisOscuro);
 }
 
 .fa-footer {

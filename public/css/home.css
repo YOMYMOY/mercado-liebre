@@ -1,15 +1,50 @@
 .home__main {
-
+    display: block;
+    margin: auto;
+    width: 90%;
 }
 
-.home__main section h2 {
+.home__main--banner img {
+    width: 100%;
+}
+
+.home__main__section__article {
+    margin-bottom: 10px;
+}
+
+.home__main__section h2 {
     font-size: 24px;
+    margin: 20px 0;
+    color: var(--colorGrisOscuro);
 }
+
+.home__main__section__article--contenido {
+    background-color: white;
+    border-top: 1px solid var(--colorGrisClaro);
+    padding: 15px;
+}
+
+/* .home__main__section__article--contenido p {
+    color: var(--colorVerde);
+} */
+
+/* .home__main__section__article--contenido i {
+    color: var(--colorVerde);
+} */
 
 .home__main__section__article h3 {
     font-size: 18px;
 }
 
-.home__main__section__article p, h4 {
+.home__main__section__article p{
     font-size: 16px;
 }
+
+.home__main__section__article h4{
+    font-size: 16px;
+}
+
+/* .home__main__section__article h4 {
+    margin-top: 15px;
+    color: var(--colorGrisOscuro);
+} */
