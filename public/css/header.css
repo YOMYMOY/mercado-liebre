@@ -1,25 +1,49 @@
  .header {
+    display: flex;
+    flex-wrap: wrap;
     background-color: var(--colorAmarillo);
-    padding-bottom: 20px;
+    padding: 15px;
+    justify-content: space-around;
 }
 
 .header img {
-    width: 40%;
-    margin: 20px;
-    margin-bottom: 10px;
+    width: 50%;
+}
+
+.header__searchbar {
+    width: 45%;
+    position: relative;
 }
 
 .header__searchbar--input {
-    margin-left: 15px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: var(--colorGrisOscuro);
 }
 
 .header__searchbar--button {
-    padding: 0;
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    border: none;
+    background-color: #FFF;
+    color: var(--colorGrisOscuro);
 }
 
-.header p {
-    margin: 10px 0;
+.header__searchbar--button i {
+    font-size: 5vw;
+}
+
+.header h4 {
+    width: 100%;
+    margin: 20px 0;
     text-align: center;
+    font-weight: 400;
+    font-size: 1.2em;
 }
 
 .header__nav {
@@ -31,12 +55,11 @@
 }
 
 .burger-menu {
-    display: block;
+    display: inline-block;
     background-color: var(--colorCeleste);
     color: white;
     padding: 10px;
     border-radius: 5px;
-    margin: 20px auto 0;
     border: none;
 }
 
@@ -44,7 +67,7 @@
     font-size: 150%;
 }
 
-@media (min-width: 361px) {
+@media (min-width: 426px) {
     .header {
         padding-bottom: 0;
     }

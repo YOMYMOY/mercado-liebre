@@ -1,4 +1,4 @@
-.home__main {
+.home__main__productos {
     display: block;
     margin: auto;
     width: 90%;
@@ -29,9 +29,21 @@
     width: 100%;
 }
 
+.home__main__section__article--icono_camion {
+    position: relative;
+}
+
 /* logo camión envíos */
 .home__main__section__article--icono_camion i {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: -30px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
     color: var(--colorVerde);
+    background-color: #FFF;
     border-radius: 50%;
     border: 1px solid var(--colorVerde);
     padding: 5px;
@@ -39,11 +51,15 @@
 
 /* precio */
 .home__main__section__article--contenido h3 {
+    display: inline-block;
     font-size: 18px;
+    width: 30%;
 }
 
 /* oferta */
 .home__main__section__article--contenido p{
+    display: inline-block;
+    width: 70%;
     font-size: 16px;
     color: var(--colorVerde);
 }
