@@ -22,3 +22,10 @@ li {
 ol, ul {
     padding: 0;
 }
+
+@media (min-width: 769px) {
+    body {
+        max-width: 1280px;
+        margin: auto;
+    }
+}
