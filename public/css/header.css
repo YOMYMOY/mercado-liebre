@@ -8,6 +8,7 @@
 
 .img-logo {
     width: 50%;
+    cursor: default;
 }
 
 .header__searchbar {
