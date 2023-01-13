@@ -53,26 +53,43 @@
                 <input type="email" id="email" placeholder="E-mail">
             </div>
             <div>
-                <label for="fechaNac">Fecha de nacimiento</label>
-                <input type="date" id="fechaNac" placeholder="mm/dd/yyyy">
+                <label for="password"></label>
+                <input type="password" id="password" placeholder="Elegí tu contraseña">
+            </div>
+            <div>
+                <label for="confirmPassword"></label>
+                <input type="password" id="confirmPassword" placeholder="Confirmar contraseña">
+            </div>
+            <div>
+                <label class="subtitulo-form" for="fotoPerfil">Foto de perfil</label>
+                <input type="file" id="fotoPerfil" accept=".jpg, .png">
+            </div>
+            <div>
+                <label class="subtitulo-form" for="fechaNac">Fecha de nacimiento</label>
+                <input type="date" id="fechaNac">
             </div>
             <div>
                 <label for="domicilio"></label>
                 <input type="text" id="domicilio" placeholder="Domicilio">
             </div>
-            <fieldset>
-                <legend>Perfil del usuario</legend>
-                <label for="perfilComprador"><input type="radio" id="perfilComprador" name="perfilUsuario" >Comprador</label>
-                <label for="perfilVendedor"><input type="radio" id="perfilVendedor" name="perfilUsuario">Vendedor</label>
+            <fieldset class="perfil-usuario">
+                <legend class="subtitulo-form">Perfil del usuario</legend>
+                <input type="radio" id="perfilComprador" name="perfilUsuario" >
+                <label for="perfilComprador">Comprador</label>
+                <input type="radio" id="perfilVendedor" name="perfilUsuario">
+                <label for="perfilVendedor">Vendedor</label>
             </fieldset>
-            <fieldset>
-                <legend>Intereses</legend>
+            <fieldset class="intereses-form">
+                <legend class="subtitulo-form">Intereses</legend>
                 <label for="electro"><input type="checkbox" id="electro" name="intereses">Electro</label>
                 <label for="moda"><input type="checkbox" id="moda" name="intereses">Moda</label>
                 <label for="hogar"><input type="checkbox" id="hogar" name="intereses">Hogar</label>
                 <label for="jugeuteria"><input type="checkbox" id="jugeuteria" name="intereses">Juguetería</label>
                 <label for="vidaSana"><input type="checkbox" id="vidaSana" name="intereses">Vida sana</label>
             </fieldset>
+            <div>
+                <input type="submit" value="Registrarse" class="submit">
+            </div>
         </form>
     </main>
 
