@@ -15,10 +15,10 @@
 <body class="home">
     <header class="header">
         <a class="img-logo" href="/"><img src="/images/logo-mercado-liebre.svg" alt=""></a>
-        <div class="header__searchbar">
-            <input class="header__searchbar--input" type="text" name="" value="Buscar productos, marcas" size="24">
+        <form action="" method="" class="header__searchbar">
+            <input class="header__searchbar--input" type="text" name="" placeholder="Buscar productos, marcas" size="24">
             <button class="header__searchbar--button"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
+        </form>
         <h4><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h4>
         <nav class="header__nav">
             <ul class="header__nav--navbar">
@@ -42,23 +42,23 @@
         <form action="" method="POST" class="form-registro">
             <div>
                 <label for="nombre"></label>
-                <input type="text" id="nombre" placeholder="Nombre y apellido">
+                <input type="text" id="nombre" placeholder="Nombre y apellido" required>
             </div>
             <div>
                 <label for="usuario"></label>
-                <input type="text" id="usuario" placeholder="Nombre de usuario">
+                <input type="text" id="usuario" placeholder="Nombre de usuario" required>
             </div>
             <div>
                 <label for="email"></label>
-                <input type="email" id="email" placeholder="E-mail">
+                <input type="email" id="email" placeholder="E-mail" required>
             </div>
             <div>
                 <label for="password"></label>
-                <input type="password" id="password" placeholder="Elegí tu contraseña">
+                <input type="password" id="password" placeholder="Elegí tu contraseña" required>
             </div>
             <div>
                 <label for="confirmPassword"></label>
-                <input type="password" id="confirmPassword" placeholder="Confirmar contraseña">
+                <input type="password" id="confirmPassword" placeholder="Confirmar contraseña" required>
             </div>
             <div>
                 <label class="subtitulo-form" for="fotoPerfil">Foto de perfil</label>
@@ -66,15 +66,15 @@
             </div>
             <div>
                 <label class="subtitulo-form" for="fechaNac">Fecha de nacimiento</label>
-                <input type="date" id="fechaNac">
+                <input type="date" id="fechaNac" required>
             </div>
             <div>
                 <label for="domicilio"></label>
-                <input type="text" id="domicilio" placeholder="Domicilio">
+                <input type="text" id="domicilio" placeholder="Domicilio" required>
             </div>
             <fieldset class="perfil-usuario">
                 <legend class="subtitulo-form">Perfil del usuario</legend>
-                <input type="radio" id="perfilComprador" name="perfilUsuario" >
+                <input type="radio" id="perfilComprador" name="perfilUsuario" checked>
                 <label for="perfilComprador">Comprador</label>
                 <input type="radio" id="perfilVendedor" name="perfilUsuario">
                 <label for="perfilVendedor">Vendedor</label>
