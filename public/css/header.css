@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-.header img {
+.img-logo {
     width: 50%;
 }
 
@@ -77,7 +77,7 @@
         align-items: center;
     }
 
-    .header img {
+    .img-logo {
         width: 30%;
     }
 
