@@ -31,16 +31,4 @@
     color: var(--colorCeleste);
     font-size: 2em;
     margin-bottom: 10px;
-    transition: color 300ms;
-}
-
-.fa-footer:hover {
-    color: var(--colorVerde);
-}
-
-@media (min-width: 769px) {
-    .footer__section {
-        display: flex;
-        gap: 30px;
-    }
 }
