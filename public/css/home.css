@@ -49,6 +49,7 @@
     border-radius: 50%;
     border: 1px solid var(--colorVerde);
     padding: 5px;
+    transition: all 450ms;
 }
 
 /* precio */
@@ -72,6 +73,20 @@
     font-weight: 400;
     margin-top: 20px;
     display: none;
+    opacity: 0;
+    transition: all 450ms;
+}
+
+.home__main__section__article:hover h4 {
+    opacity: 1;
+}
+
+.home__main__section__article:hover .home__main__section__article--icono_camion i {
+    rotate: -90deg;
+}
+
+.home__main__section__article:hover {
+    transform: scale(1.03);
 }
 
 @media (min-width: 426px) {
@@ -86,8 +101,12 @@
     }
     
     .home__main__section__article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 45%;
+        transition: all 450ms;
+    }
+
+    .home__main__section__article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .home__main__section__article--contenido h3 {
