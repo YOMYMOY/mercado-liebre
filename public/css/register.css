@@ -54,7 +54,7 @@ fieldset {
 }
 
 .submit:hover {
-    background: var(--colorAzul);
+    background: #0022AA;
 }
 
 @media (min-width: 426px) {
